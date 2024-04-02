@@ -18,15 +18,6 @@ public class Main {
             act2.withdraw(2000);
               System.out.println(act2.toString());
 
-        //      LoanAccount Loan = new LoanAccount("Loan",5000);
-       //       System.out.println(act3.toString());
-
-        Account act3 = new LoanAccount("Loan", 2000) ;
-        act3.withdraw(500);
-        System.out.println(act3.toString());
-        act3.withdraw(2000);
-        System.out.println(act3.toString());
-
         //LoanAccount
         Account act3 = new LoanAccount("Loan", 2000) ;
         act3.withdraw(500);
